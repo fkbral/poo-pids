@@ -4,8 +4,6 @@ class Jogador:
     self.idade = age
     self.pontuacao = points
 
-    return self
-
   def imprimeDados(self):
     print('Nome do jogador:', self.nome)
     print('Idade do jogador:', self.idade)
